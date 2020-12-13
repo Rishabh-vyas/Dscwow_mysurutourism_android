@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".COVID">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/no"
+                android:id="@+id/ppImage"
+                android:layout_height="150dp"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/c1"
+                android:id="@+id/c1"
+                android:layout_height="150dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/c2"
+                android:id="@+id/c2"
+                android:layout_height="150dp"/>
+
+            <ImageView
+                android:id="@+id/c3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:paddingRight="40dp"
+                android:src="@drawable/c3" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/c4"
+                android:id="@+id/c4"
+                android:paddingLeft="20dp"
+                android:layout_height="150dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/c5"
+                android:id="@+id/c5"
+                android:paddingRight="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="150dp"/>
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -4,18 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ThirdActivity">
+    tools:context=".Yoga2">
 
 
     <ImageView
         android:id="@+id/header_background"
         android:layout_width="412dp"
         android:layout_height="291dp"
+        android:scaleType="centerCrop"
         android:transitionName="background_image_transition"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/header_background"
+        app:srcCompat="@drawable/yoga"
         tools:targetApi="lollipop" />
 
     <ImageView
@@ -54,7 +55,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/open_sans_extra_bold"
-                android:text="The STRAT Hotel, Casino &amp; SkyPod"
+                android:text="Yoga Meditation"
                 android:textColor="@color/colorPrimary"
                 android:textSize="24sp" />
 
@@ -118,15 +119,7 @@
                 android:layout_marginTop="10dp"
                 android:alpha="0.5"
                 android:fontFamily="@font/open_sans_regular"
-                android:text="Top of the World is known as one of the
-most romantic restaurants in the city. It offers
-an intimate dining setting paired with
-an extravagant view of the entire city, all
-encompassed in a 360-degree revolving frame.
-Yes, that’s right, this restaurant allows diners
-the opportunity to see Las Vegas in its entirety
-if they’re able to stay for at least 80 minutes,
-the time needed for one full rotation."
+                android:text="Yoga is essentially a spiritual discipline based on an extremely subtle science, which focuses on bringing harmony between mind and body. It is an art and scince of healthy living. The word 'Yoga' is derived from the Sanskrit root 'Yuj', meaning 'to join' or 'to yoke' or 'to unite'."
                 android:textColor="@color/colorPrimary"
                 android:textSize="15sp" />
 
@@ -147,56 +140,35 @@ the time needed for one full rotation."
                 android:layout_marginTop="10dp"
                 android:alpha="0.5"
                 android:fontFamily="@font/open_sans_regular"
-                android:text="Restaurant"
+                android:text="SPIRITUALITY"
                 android:textColor="@color/colorPrimary"
                 android:textSize="15sp" />
 
-            <TextView
-                android:id="@+id/type_of_view"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/open_sans_bold"
-                android:text="Type of View"
-                android:textColor="@color/colorPrimary"
-                android:textSize="15sp" />
 
-            <TextView
-                android:id="@+id/type_of_view_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:alpha="0.5"
-                android:fontFamily="@font/open_sans_regular"
-                android:text="It might surprise you, but this is the only
-revolving restaurant in Las Vegas. Located
-844 feet in the air, you’re bound to get
-a great view of the city with its massive
-floor-to-ceiling windows."
-                android:textColor="@color/colorPrimary"
-                android:textSize="15sp" />
 
-            <Button
-                android:id="@+id/roadmap_button"
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="16dp"
-                android:background="@drawable/custom_button"
-                android:drawableEnd="@drawable/ic_steps"
-                android:drawableRight="@drawable/ic_steps"
-                android:fontFamily="@font/open_sans_extra_bold"
-                android:paddingLeft="50dp"
-                android:paddingRight="50dp"
-                android:text="CH E C K   RO A D M A P"
-                android:textColor="@color/white"
-                android:textSize="18sp" />
+<!--            <Button-->
+<!--                android:id="@+id/roadmap_button"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="70dp"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                android:layout_marginBottom="16dp"-->
+<!--                android:background="@drawable/custom_button"-->
+<!--                android:drawableEnd="@drawable/ic_steps"-->
+<!--                android:drawableRight="@drawable/ic_steps"-->
+<!--                android:fontFamily="@font/open_sans_extra_bold"-->
+<!--                android:paddingLeft="50dp"-->
+<!--                android:paddingRight="50dp"-->
+<!--                android:text="CH E C K   RO A D M A P"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="18sp" />-->
 
         </LinearLayout>
 
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
 
 

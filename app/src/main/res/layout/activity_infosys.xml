@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity"
-    android:background="@drawable/background"
+    tools:context=".Infosys"
+    android:background="@drawable/in"
     android:transitionName="background_image_transition"
     tools:targetApi="LOLLIPOP">
+
 
     <ImageView
         android:id="@+id/second_back_arrow"
@@ -33,7 +34,7 @@
         android:layout_marginRight="18dp"
         android:layout_marginTop="420dp"
         android:fontFamily="@font/open_sans_extra_bold"
-        android:text="THE START Hotel, Casino &amp; SkyPod"
+        android:text="Infosys Campus"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,9 +51,9 @@
         android:layout_marginRight="18dp"
         android:layout_marginEnd="18dp"
         android:layout_marginLeft="18dp"
-        android:alpha="0.5"
+        android:textStyle="bold"
         android:fontFamily="@font/open_sans_regular"
-        android:text="Top of the World is known as one of the most romantic restaurants in the city. It offers an intimate dining setting paired with an extravagant view of the entire city, all encompassed in 360-degree ..."
+        android:text="Its Mysore campus is a proud testament to the company's values and its soaring ambition. It is spread over a sprawling 350 acres in the green environs of Mysore. The Mysore campus is used as a training center for Infosys' new recruits, making it the world's largest corporate university."
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -136,21 +137,6 @@
         app:layout_constraintTop_toBottomOf="@id/seconf_arrow_up"
         app:layout_constraintVertical_bias="0.0"/>
 
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

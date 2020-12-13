@@ -16,7 +16,7 @@ import android.widget.TextView;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SecondActivity extends AppCompatActivity {
+public class Infosys extends AppCompatActivity {
 
 
     ImageView second_back_arrow, second_arrow_up;
@@ -30,7 +30,7 @@ public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_infosys);
 
 
         second_back_arrow = findViewById(R.id.second_back_arrow);
@@ -46,7 +46,7 @@ public class SecondActivity extends AppCompatActivity {
         second_back_arrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SecondActivity.this, MainActivity.class);
+                Intent intent = new Intent(Infosys.this, MainActivity.class);
                 startActivity(intent);
             }
         });
@@ -92,12 +92,12 @@ public class SecondActivity extends AppCompatActivity {
             @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SecondActivity.this, ThirdActivity.class);
+                Intent intent = new Intent(Infosys.this, Infosys2.class);
 
                 Pair[] pairs = new Pair[1];
                 pairs[0] = new Pair<View, String>(second_arrow_up, "background_image_transition");
 
-                ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(SecondActivity.this, pairs);
+                ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(Infosys.this, pairs);
 
                 startActivity(intent, options.toBundle());
             }

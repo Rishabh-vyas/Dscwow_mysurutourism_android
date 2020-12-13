@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="hotel.review.appandroid">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -9,15 +17,59 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".COVID"></activity>
+        <activity android:name=".MainActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Map"
+            android:label="@string/title_activity_map" />
+        <activity android:name=".Muvsiam2" />
+        <activity android:name=".Muvsiam" />
+        <activity android:name=".Dam2" />
+        <activity android:name=".Dam" />
+        <activity android:name=".Park2" />
+        <activity android:name=".Park" />
+        <activity android:name=".Somnathpur2" />
+        <activity android:name=".Somnathpur" />
+        <activity android:name=".Yoga2" />
+        <activity android:name=".Yoga" />
+        <activity android:name=".Garden2" />
+        <activity android:name=".Garden" />
+        <activity android:name=".Zoo2" />
+        <activity android:name=".Zoo" />
+        <activity android:name=".Dashra2" />
+        <activity android:name=".Dashra" />
+        <activity android:name=".Places" />
+        <activity android:name=".Events" />
+        <activity android:name=".Ph2" />
+        <activity android:name=".Philomenas" />
+        <activity android:name=".Infosys2" />
+        <activity android:name=".Infosys" />
+        <activity android:name=".Chamunda2" />
+        <activity android:name=".Chamunda" />
+        <activity android:name=".Karanji2" />
+        <activity android:name=".KaranjiLake" />
+        <activity android:name=".Menu" />
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ThirdActivity"></activity>
-        <activity android:name=".SecondActivity" />
+        <activity android:name=".MysuruPalace2" />
+        <activity android:name=".MysuruPalace" />
     </application>
 
 </manifest>
